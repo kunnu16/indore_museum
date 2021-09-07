@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Data</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDk_c4gAnEx5TN0kF8Q69IWmisqJSGpePY",
+          authDomain: "shiksha-aid.firebaseapp.com",
+          databaseURL: "https://shiksha-aid-default-rtdb.firebaseio.com",
+          projectId: "shiksha-aid",
+          storageBucket: "shiksha-aid.appspot.com",
+          messagingSenderId: "1018363210699",
+          appId: "1:1018363210699:web:6555503b9e246ee3b3244e",
+          measurementId: "G-819K6CR1ZJ"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+
+
+    <button> <a href="index.html">Home</a></button>
+   
+    
+</body>
+</html>
